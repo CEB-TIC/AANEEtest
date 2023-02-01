@@ -395,6 +395,20 @@ div[data-v-d1615be0] {
 
 
 
+.AANEE_SIMULACIO-editItem-layout[data-v-57f0efed] {
+    display: grid;
+    width: 990px;
+    display: grid;
+    grid-template-columns: 10% 15% 25% 10% 20% 20%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+      "ID_NIVELL          CODI_SIMULACIO       NOM_SIMULACIO     NOM_SIMULACIO        PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
+      "ASSIG_MANUALS_NEE  ASSIG_MANUALS_NEE    FORATERMINI_NEE   DUPLICADES_NEE       DUPLICADES_NEE           ESTAT_SOLICITUD"
+      "ASSIG_MANUALS_ORD  ASSIG_MANUALS_ORD    REASSIGNAR_NEE    IGNORAR_FORACIUTAT   IGNORAR_FORACIUTAT       ."
+      "errorMessage       errorMessage         errorMessage      errorMessage         errorMessage             errorMessage";
+}
+
+
 .AANEE_SIMULACIO_OFERTA-edit-layout[data-v-2d0ea109] {
    padding: 4px;
     margin-top: 2px;
