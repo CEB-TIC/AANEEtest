@@ -395,7 +395,10 @@ div[data-v-d1615be0] {
 
 
 
-.AANEE_SIMULACIO-editItem-layout[data-v-57f0efed] {
+.alta[data-v-2ddc09c6] {
+  margin-top: 8px;
+}
+.AANEE_SIMULACIO-editItem-layout[data-v-2ddc09c6] {
     display: grid;
     width: 990px;
     display: grid;
@@ -404,7 +407,7 @@ div[data-v-d1615be0] {
     grid-template-areas:
       "ID_NIVELL          CODI_SIMULACIO       NOM_SIMULACIO     NOM_SIMULACIO        PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
       "ASSIG_MANUALS_NEE  ASSIG_MANUALS_NEE    FORATERMINI_NEE   DUPLICADES_NEE       DUPLICADES_NEE           ESTAT_SOLICITUD"
-      "ASSIG_MANUALS_ORD  ASSIG_MANUALS_ORD    REASSIGNAR_NEE    IGNORAR_FORACIUTAT   IGNORAR_FORACIUTAT       ."
+      "ASSIG_MANUALS_ORD  ASSIG_MANUALS_ORD    REASSIGNAR_NEE    IGNORAR_FORACIUTAT   IGNORAR_FORACIUTAT       ALTA"
       "errorMessage       errorMessage         errorMessage      errorMessage         errorMessage             errorMessage";
 }
 
@@ -425,17 +428,20 @@ div[data-v-d1615be0] {
       'FINAL     FINAL      GRUPS_FIN       OFERTA_ORDINARIA_FIN       OFERTA_NEEA_FIN       OFERTA_NEEB_FIN       OFERTA_NEE_FIN'
 }
 
-.AANEE_SIMULACIO-editItem-layout {
+
+.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-dcb15b38] {
+   padding: 4px;
+    margin-top: 2px;
+    margin-left:4px;
     display: grid;
-    width: 990px;
-    display: grid;
-    grid-template-columns: 10% 15% 25% 10% 20% 20%;
+    grid-template-columns: 17% 17% 12% 12% 12% 12% 12%;
     grid-column-gap: 6px;
     grid-template-areas:
-      "ID_NIVELL          CODI_SIMULACIO       NOM_SIMULACIO     NOM_SIMULACIO        PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
-      "ASSIG_MANUALS_NEE  ASSIG_MANUALS_NEE    FORATERMINI_NEE   DUPLICADES_NEE       DUPLICADES_NEE           ESTAT_SOLICITUD"
-      "ASSIG_MANUALS_ORD  ASSIG_MANUALS_ORD    REASSIGNAR_NEE    IGNORAR_FORACIUTAT   IGNORAR_FORACIUTAT       ."
-      "errorMessage       errorMessage         errorMessage      errorMessage         errorMessage             errorMessage";
+      '.         .          ID_ZONA  TITULARITAT                TITULARITAT           TITULARITAT           TITULARITAT'
+      'INICIAL   INICIAL    NUM      OFERTA_ORDINARIA_INI       OFERTA_NEEA_INI       OFERTA_NEEB_INI       OFERTA_NEE_INI'
+      'ACTUALC   ACTUALC    NCTES    VARIACIO_ORDINARIA_CENTRE  VARIACIO_NEEA_CENTRE  VARIACIO_NEEB_CENTRE  VARIACIO_NEE_CENTRE'
+      'ACTUALG   ACTUALG    NGRUPS   VARIACIO_ORDINARIA_GRUP    VARIACIO_NEEA_GRUP    VARIACIO_NEEB_GRUP    VARIACIO_NEE_GRUP'
+      'FINAL     FINAL      .        OFERTA_ORDINARIA_FIN       OFERTA_NEEA_FIN       OFERTA_NEEB_FIN       OFERTA_NEE_FIN'
 }
 
 .AANEE_USUARI-editItem-layout {
