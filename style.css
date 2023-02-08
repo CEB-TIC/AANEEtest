@@ -202,18 +202,19 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_ALUMNE-editItem-neeb[data-v-a95f3ebe] {
+.AANEE_ALUMNE-editItem-neeb[data-v-2c6a06df] {
     padding: 4px;
     margin-left:20px;
     max-width:1200px;
     display: grid;
     max-width: 1200px;
-    grid-template-columns: 20% 20% 20% 39%;
+    grid-template-columns: 17% 20% 20% 21% 20%;
     grid-column-gap: 6px;
     grid-template-areas:
-    'ES_NEEB           AVALUACIO_NEEB    PROFESSIONAL_ASSIGNAT_NEEB    PROFESSIONAL_ASSIGNAT_NEEB '
-    'ENTREVISTAR_NEEB  DATATRUCADA_NEEB  INSCRIT_ORDINARI_GEDAC        INSCRIPCIOFINAL_NEEB'
-    'LABEL_RAV         VULNERABLE        PLADEXOC                      ID_MOTIUVULNER'
+    'ES_NEEB           AVALUACIO_NEEB     PROFESSIONAL_ASSIGNAT_NEEB    PROFESSIONAL_ASSIGNAT_NEEB    PROFESSIONAL_ASSIGNAT_NEEB'
+    'ENTREVISTAR_NEEB  DATATRUCADA_NEEB   INSCRIT_ORDINARI_GEDAC        INSCRIPCIOFINAL_NEEB          INSCRIPCIOFINAL_NEEB'
+    'LABEL_RAV         VULNERABLE         PLADEXOC                      ID_MOTIUVULNER                ID_MOTIUVULNER'
+    'LABEL_BAREM       RENDA_MINIMA       RENDA_MINIMA_VALIDAT          ACOLLIMENT_FAMILIAR           ACOLLIMENT_FAMILIAR_VALIDAT'
 }
 
 
@@ -301,14 +302,14 @@ div[data-v-d1615be0] {
       "EMAIL_USUARI    EMAIL_USUARI        EMAIL_USUARI          ID_EAP"
       "errorMessage    errorMessage        errorMessage          errorMessage";
   }
-.layoutBase-grid[data-v-07a4228c] {
+.layoutBase-grid[data-v-3ecb5158] {
   display: grid;
   grid-template-areas: "logo title menu" "content content content";
   grid-template-columns: 160px 360px auto;
   grid-template-rows: 75px auto;
   min-height: 100%;
 }
-.layoutBase-logo[data-v-07a4228c] {
+.layoutBase-logo[data-v-3ecb5158] {
   grid-area: logo;
   display: flex;
   align-items: center;
@@ -316,29 +317,29 @@ div[data-v-d1615be0] {
   margin: 0;
   padding: 0;
 }
-.layoutBase-title[data-v-07a4228c] {
+.layoutBase-title[data-v-3ecb5158] {
   grid-area: title;
   padding: 5px 20px 0 20px;
   max-height: 85px;
   margin: 0;
   overflow: hidden;
 }
-.layoutBase-appTitle[data-v-07a4228c] {
+.layoutBase-appTitle[data-v-3ecb5158] {
   font-size: 20px;
   color: var(--theme-primary, #0078d4);
 }
-.layoutBase-subtitle[data-v-07a4228c] {
+.layoutBase-subtitle[data-v-3ecb5158] {
   padding-top: 0px;
   margin-top: -6px;
   font-size: 18px;
   color: var(--theme-secondary, #2b88d8);
 }
-.layoutBase-menu[data-v-07a4228c] {
+.layoutBase-menu[data-v-3ecb5158] {
   grid-area: menu;
   max-height: 100px;
   width: 95%;
 }
-.layoutBase-content[data-v-07a4228c] {
+.layoutBase-content[data-v-3ecb5158] {
   position: relative;
   grid-area: content;
   border-top: 2px solid var(--theme-primary, #0078d4);
@@ -395,24 +396,24 @@ div[data-v-d1615be0] {
 
 
 
-.alta[data-v-146af6ff] {
+.alta[data-v-7cec7efa] {
   margin-top: 8px;
 }
-.AANEE_SIMULACIO-editItem-layout[data-v-146af6ff] {
+.AANEE_SIMULACIO-editItem-layout[data-v-7cec7efa] {
     display: grid;
     width: 990px;
     display: grid;
-    grid-template-columns: 10% 15% 25% 10% 20% 20%;
+    grid-template-columns: 10% 15% 25% 15% 20% 20%;
     grid-column-gap: 6px;
     grid-template-areas:
-      "ID_NIVELL          CODI_SIMULACIO       NOM_SIMULACIO     NOM_SIMULACIO        PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
-      "ASSIG_MANUALS_NEE  ASSIG_MANUALS_NEE    FORATERMINI_NEE   DUPLICADES_NEE       DUPLICADES_NEE           ESTAT_SOLICITUD"
-      "ASSIG_MANUALS_ORD  ASSIG_MANUALS_ORD    REASSIGNAR_NEE    IGNORAR_FORACIUTAT   IGNORAR_FORACIUTAT       ."
-      "errorMessage       errorMessage         errorMessage      errorMessage         errorMessage             errorMessage";
+      "ID_NIVELL          CODI_SIMULACIO      NOM_SIMULACIO       NOM_SIMULACIO      PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
+      "ASSIG_MANUALS_NEE  ASSIG_MANUALS_NEE   FORATERMINI_NEE     DUPLICADES_NEE     DUPLICADES_NEE           ESTAT_SOLICITUD"
+      "ASSIG_MANUALS_ORD  ASSIG_MANUALS_ORD   IGNORAR_FORACIUTAT  REASSIGNAR_NEE     REASSIGNAR_NEE           ALTA"
+      "errorMessage       errorMessage        errorMessage        errorMessage       errorMessage             errorMessage";
 }
 
 
-.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-03505655] {
+.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-d7e08a06] {
    padding: 4px;
     margin-top: 2px;
     margin-left:4px;
@@ -423,13 +424,13 @@ div[data-v-d1615be0] {
       'ID_ZONA   NCTES      TITULARITAT     TITULARITAT                TITULARITAT           TITULARITAT           TITULARITAT'
       '.         .          ID_CENTRECodi   ID_CENTRENom               ID_CENTRENom          ID_CENTRENom          ID_CENTRENom'
       'INICIAL   INICIAL    GRUPS_INI       OFERTA_ORDINARIA_INI       OFERTA_NEEA_INI       OFERTA_NEEB_INI       OFERTA_NEE_INI'
-      'ACTUALC   ACTUALC    VARIACIO_GRUPS  VARIACIO_ORDINARIA_CENTRE  VARIACIO_NEEA_CENTRE  VARIACIO_NEEB_CENTRE  VARIACIO_NEE_CENTRE'
-      'ACTUALG   ACTUALG    .               VARIACIO_ORDINARIA_GRUP    VARIACIO_NEEA_GRUP    VARIACIO_NEEB_GRUP    VARIACIO_NEE_GRUP'
+      'ACTUALG   ACTUALG    .               MODIFICACIO_NEEA_GRUP         MODIFICACIO_NEEB_GRUP    MODIFICACIO_NEE_GRUP     .'
+      'ACTUALC   ACTUALC    MODIFICACIO_GRUPS  MODIFICACIO_ORDINARIA_CENTRE  MODIFICACIO_NEEA_CENTRE  MODIFICACIO_NEEB_CENTRE  MODIFICACIO_NEE_CENTRE'
       'FINAL     FINAL      GRUPS_FIN       OFERTA_ORDINARIA_FIN       OFERTA_NEEA_FIN       OFERTA_NEEB_FIN       OFERTA_NEE_FIN'
 }
 
 
-.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-6b390101] {
+.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-6584d87a] {
    padding: 4px;
     margin-top: 2px;
     margin-left:4px;
@@ -439,8 +440,8 @@ div[data-v-d1615be0] {
     grid-template-areas:
       '.          ID_ZONA  TITULARITAT                TITULARITAT           TITULARITAT           TITULARITAT'
       'INICIAL    NUM      OFERTA_ORDINARIA_INI       OFERTA_NEEA_INI       OFERTA_NEEB_INI       OFERTA_NEE_INI'
-      'ACTUALC    NCTES    VARIACIO_ORDINARIA_CENTRE  VARIACIO_NEEA_CENTRE  VARIACIO_NEEB_CENTRE  VARIACIO_NEE_CENTRE'
-      'ACTUALG    NGRUPS   VARIACIO_ORDINARIA_GRUP    VARIACIO_NEEA_GRUP    VARIACIO_NEEB_GRUP    VARIACIO_NEE_GRUP'
+      'ACTUALC    NCTES    MODIFICACIO_ORDINARIA_CENTRE  MODIFICACIO_NEEA_CENTRE  MODIFICACIO_NEEB_CENTRE  MODIFICACIO_NEE_CENTRE'
+      'ACTUALG    NGRUPS   MODIFICACIO_ORDINARIA_GRUP    MODIFICACIO_NEEA_GRUP    MODIFICACIO_NEEB_GRUP    MODIFICACIO_NEE_GRUP'
       'FINAL      .        OFERTA_ORDINARIA_FIN       OFERTA_NEEA_FIN       OFERTA_NEEB_FIN       OFERTA_NEE_FIN'
 }
 
@@ -466,24 +467,24 @@ div[data-v-d1615be0] {
       "CODI_CENTRE  NOM_CENTRE        NOM_CENTRE   NOM_CENTRE   NOM_CENTRE"
       "GRUPS        OFERTA_ORDINARIA  OFERTA_NEEA  OFERTA_NEEB  OFERTA_NEE";
   }
-.detailsViewSelect-navTop[data-v-ab7bca4a] {
+.detailsViewSelect-navTop[data-v-5c441279] {
   display: flex;
   flex-direction: column-reverse;
 }
-.detailsViewSelect-navBottom[data-v-ab7bca4a] {
+.detailsViewSelect-navBottom[data-v-5c441279] {
   display: flex;
   flex-direction: column;
 }
-.detailsViewSelect-navigation[data-v-ab7bca4a] {
+.detailsViewSelect-navigation[data-v-5c441279] {
   display: flex;
 }
-.detailsViewSelect-navigation.detailsViewSelect-left[data-v-ab7bca4a] {
+.detailsViewSelect-navigation.detailsViewSelect-left[data-v-5c441279] {
   justify-content: flex-start;
 }
-.detailsViewSelect-navigation.detailsViewSelect-center[data-v-ab7bca4a] {
+.detailsViewSelect-navigation.detailsViewSelect-center[data-v-5c441279] {
   justify-content: center;
 }
-.detailsViewSelect-navigation.detailsViewSelect-right[data-v-ab7bca4a] {
+.detailsViewSelect-navigation.detailsViewSelect-right[data-v-5c441279] {
   justify-content: flex-end;
 }
 
@@ -553,7 +554,7 @@ div[data-v-d1615be0] {
   justify-content: center;
 }
 
-.detailsGrid[data-v-117840b4] {
+.detailsGrid[data-v-3c346872] {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -569,30 +570,30 @@ div[data-v-d1615be0] {
   border-color: var(--neutral-light, var(--neutral-light, #edebe9));
   position: relative;
 }
-.detailsGrid tr[data-v-117840b4] {
+.detailsGrid tr[data-v-3c346872] {
   height: 42px;
 }
-.detailsGrid thead tr[data-v-117840b4],
-.detailsGrid tbody tr[data-v-117840b4]:last-of-type {
+.detailsGrid thead tr[data-v-3c346872],
+.detailsGrid tbody tr[data-v-3c346872]:last-of-type {
   border-bottom: 1px solid var(--neutral-light, var(--neutral-light, #edebe9));
 }
-.detailsGrid tbody tr[data-v-117840b4]:first-of-type {
+.detailsGrid tbody tr[data-v-3c346872]:first-of-type {
   vertical-align: top;
 }
-.detailsGrid tbody tr:first-of-type td[data-v-117840b4] {
+.detailsGrid tbody tr:first-of-type td[data-v-3c346872] {
   padding-top: 5px;
   height: calc(100% - 5px);
 }
-.detailsGrid tbody[data-v-117840b4]:hover {
+.detailsGrid tbody[data-v-3c346872]:hover {
   background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
 }
-.detailsGrid tbody td[data-v-117840b4] {
+.detailsGrid tbody td[data-v-3c346872] {
   height: 42px;
 }
-.detailsGrid-headerCell[data-v-117840b4]:hover {
+.detailsGrid-headerCell[data-v-3c346872]:hover {
   background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
 }
-.detailsGrid-headerTitle[data-v-117840b4] {
+.detailsGrid-headerTitle[data-v-3c346872] {
   box-sizing: border-box;
   min-height: 42px;
   padding: 0px 8px 0px 12px;
@@ -606,12 +607,12 @@ div[data-v-d1615be0] {
   font-size: 14px;
   font-weight: 600;
 }
-.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-117840b4] {
+.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-3c346872] {
   padding-left: 4px;
 }
-.fura-stickyHeader thead th[data-v-117840b4] {
+.fura-stickyHeader thead th[data-v-3c346872] {
   position: sticky;
-  top: var(--2d3ee57a);
+  top: var(--21b4a0e4);
   background: var(--white, var(--white, #ffffff));
   z-index: 1;
 }
@@ -655,20 +656,20 @@ div[data-v-d1615be0] {
   align-items: flex-start;
 }
 
-.filterForm-checkbox[data-v-3a975916] {
+.filterForm-checkbox[data-v-275189ca] {
   margin: 10px 0;
 }
-.filterForm-multiple[data-v-3a975916] {
+.filterForm-multiple[data-v-275189ca] {
   display: flex;
   justify-content: space-between;
 }
-.filterForm-multiple > div[data-v-3a975916] {
+.filterForm-multiple > div[data-v-275189ca] {
   flex: 1 1 0px;
 }
-.filterForm-multiple > div[data-v-3a975916]:not(:first-child) {
+.filterForm-multiple > div[data-v-275189ca]:not(:first-child) {
   margin-left: 5px;
 }
-.filterForm-multiple > div[data-v-3a975916]:not(:last-child) {
+.filterForm-multiple > div[data-v-275189ca]:not(:last-child) {
   margin-right: 5px;
 }
 
@@ -1396,6 +1397,27 @@ div[data-v-d1615be0] {
 }
 .fura-right .cela {
   justify-content: flex-end;
+}
+
+.visor {
+  margin-top: 4px;
+  width: 1200px;
+  height: 500px;
+  background-color: #dddddd;
+}
+.boto {
+  height: 12px;
+  width: 120px;
+  margin-left: 6px;
+}
+.AANEE_SIMULACIO-reports {
+  display: grid;
+  margin: auto;
+  width: fit-content;
+  max-width: 1200px;
+  grid-template-columns: 15% 22% 20% 22% 11% 8%;
+  grid-column-gap: 6px;
+  grid-template-areas: "REPORT   REPORT      CENTRE       CENTRE    CENTRE         IDALU" "INDEX    DESCRIPCIO  TITULARITAT  PEROPCIO  MODIFICACIONS  MODIFICACIONS" "BOTONS   BOTONS      BOTONS       BOTONS    BOTONS         BOTONS" "VISOR    VISOR       VISOR        VISOR     VISOR          VISOR";
 }
 
 .dialogLoading-overlay[data-v-69be9a34] {
