@@ -120,7 +120,7 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_ALUMNE-editItem-general[data-v-2f818326] {
+.AANEE_ALUMNE-editItem-general[data-v-4c407edf] {
     padding: 4px;
     margin-top: 2px;
     margin-left:4px;
@@ -137,22 +137,22 @@ div[data-v-d1615be0] {
 
 
 
-.AANEE_ALUMNE-PERSONAL-editItem-personal[data-v-68f10448] {
+.AANEE_ALUMNE-PERSONAL-editItem-personal[data-v-5442d712] {
     padding: 4px;
     margin-top: 2px;
     margin-left:4px;
     max-width:1080px;
     display: grid;
-    grid-template-columns: 20% 24% 20% 18% 18%;
+    grid-template-columns: 20% 12% 12% 20% 18% 18%;
     grid-column-gap: 6px;
     grid-template-areas:
-    'IDENTIFICACIO_FISCAL   ADRECA_RESIDENCIA    ADRECA_RESIDENCIA   CP_RESIDENCIA                 ID_DISTRICTE_RESIDENCIA'
-    'NOM_TUTOR1             COGNOM1_TUTOR1       COGNOM2_TUTOR1      IDENTIFICACIO_FISCAL_TUTOR1   TELEFON_TUTOR1'
-    'NOM_TUTOR2             COGNOM1_TUTOR2       COGNOM2_TUTOR2      IDENTIFICACIO_FISCAL_TUTOR2   TELEFON_TUTOR2'
-    'EMAIL_TUTOR1           EMAIL_TUTOR1         EMAIL_TUTOR2        EMAIL_TUTOR2                  .'
-    'GEDAC                  GEDAC                GEDAC               GEDAC                         GEDAC'
+    'IDENTIFICACIO_FISCAL   ADRECA_RESIDENCIA   ADRECA_RESIDENCIA   ADRECA_RESIDENCIA   CP_RESIDENCIA                 ID_DISTRICTE_RESIDENCIA'
+    'NOM_TUTOR1             COGNOM1_TUTOR1      COGNOM1_TUTOR1      COGNOM2_TUTOR1      IDENTIFICACIO_FISCAL_TUTOR1   TELEFON_TUTOR1'
+    'NOM_TUTOR2             COGNOM1_TUTOR2      COGNOM1_TUTOR2      COGNOM2_TUTOR2      IDENTIFICACIO_FISCAL_TUTOR2   TELEFON_TUTOR2'
+    'EMAIL_TUTOR1           EMAIL_TUTOR1        EMAIL_TUTOR2        EMAIL_TUTOR2        ID_CENTRE_PROCEDENCIA         ID_CENTRE_PROCEDENCIA'
+    'GEDAC                  GEDAC               GEDAC               GEDAC               GEDAC                         GEDAC'
 }
-.gedac[data-v-68f10448] {
+.gedac[data-v-5442d712] {
     padding: 4px;
     margin-left:4px;
     max-width:1080px;
@@ -219,7 +219,7 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_ALUMNE-editItem-gedac[data-v-6e746ba2] {
+.AANEE_ALUMNE-editItem-gedac[data-v-7f9853af] {
     padding: 4px;
     margin-top: -4px;
     margin-left: 10px;
@@ -235,7 +235,7 @@ div[data-v-d1615be0] {
     '.              ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA     .'
     '.              ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO         .';
 }
-.xecini[data-v-6e746ba2] {
+.xecini[data-v-7f9853af] {
     margin-top: 4px;
     padding: 4px;
     width: 100%;
@@ -249,7 +249,7 @@ div[data-v-d1615be0] {
       'TRASLLATFORCOS_GEDAC_INI'
       'ASSIGNACIO_MANUAL_GEDAC_INI'
 }
-.xec[data-v-6e746ba2] {
+.xec[data-v-7f9853af] {
     margin-top: 4px;
     padding: 4px;
     width: 100%;
@@ -414,7 +414,7 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-d7e08a06] {
+.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-fe3937d8] {
    padding: 4px;
     margin-top: 2px;
     margin-left:4px;
