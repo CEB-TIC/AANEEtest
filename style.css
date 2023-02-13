@@ -120,7 +120,7 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_ALUMNE-editItem-general[data-v-407fb104] {
+.AANEE_ALUMNE-editItem-general[data-v-2f818326] {
     padding: 4px;
     margin-top: 2px;
     margin-left:4px;
@@ -130,7 +130,7 @@ div[data-v-d1615be0] {
     grid-column-gap: 6px;
     grid-template-areas:
       'IDALU         NOM                        COGNOM1                    COGNOM1                    COGNOM2                  COGNOM2              COGNOM2'
-      'ID_ORIGEN     TIPUS_ALUMNE               ID_NIVELL                  DATA_NAIXEMENT             CODI_CENTRE_PROCEDENCIA  ID_EAP               ID_EAP'
+      'ID_ORIGEN     TIPUS_ALUMNE               ID_NIVELL                  DATA_NAIXEMENT             ID_EAP                   ID_EAP               ID_EAP'
       'LABEL_MARCA   MARCA_AUTO                 MARCA_AUTO                 MARCA_AUTO                 MARCA_MANUAL             MARCA_FINAL          MARCA_FINAL'
       'errorMessage  errorMessage               errorMessage               errorMessage               errorMessage             errorMessage         errorMessage'
 }
@@ -202,7 +202,7 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_ALUMNE-editItem-neeb[data-v-e610972e] {
+.AANEE_ALUMNE-editItem-neeb[data-v-3e6f4385] {
     padding: 4px;
     margin-left:20px;
     max-width:1200px;
@@ -213,9 +213,8 @@ div[data-v-d1615be0] {
     grid-template-areas:
     'ES_NEEB           AVALUACIO_NEEB        PROFESSIONAL_ASSIGNAT_NEEB   PROFESSIONAL_ASSIGNAT_NEEB    ID_MOTIU_VULNERABILITAT'
     'ENTREVISTAR_NEEB  DATATRUCADA_NEEB      INSCRIT_ORDINARI_GEDAC       INSCRIPCIOFINAL_NEEB          INSCRIPCIOFINAL_NEEB'
-    'LABEL_RAV         ESTA_RAV              DATA_RESOLUCIO_ALTA          DATA_RESOLUCIO_BAIXA          ID_MOTIU_BAIXAVULNER'
-    '.                 ID_ESTAT_RAV          ID_ESTAT_VULNERABLE          ID_ESTAT_PLAXOC               ID_MOTIU_VULNERABILITAT_RAV'
-    'LABEL_BAREM       .                     .                            .                             .'
+    'LABEL_RAV         ID_ESTAT_RAV          ID_ESTAT_VULNERABLE          ID_ESTAT_PLAXOC               ID_MOTIU_VULNERABILITAT_RAV'
+    'LABEL_BAREM       ESTA_RAV              .                            .                             .'
     'RENDA_MINIMA      RENDA_MINIMA_VALIDAT  ACOLLIMENT_FAMILIAR          ACOLLIMENT_FAMILIAR_VALIDAT   SITUACIO_ACOLLIMENT'
 }
 
