@@ -59,7 +59,7 @@ div[data-v-29f5092a] {
   justify-content: flex-end;
 }
 
-.field[data-v-ce6a5b82] .fura-elementWrapper::after {
+.field[data-v-64ffb812] .fura-elementWrapper::after {
   right: 0px !important;
 }
 
@@ -87,7 +87,7 @@ div[data-v-d1615be0] {
   right: 0px !important;
 }
 
-.field[data-v-3c8d511f] .fura-elementWrapper::after {
+.field[data-v-52de4e9c] .fura-elementWrapper::after {
   right: 0px !important;
 }
 
@@ -95,7 +95,7 @@ div[data-v-d1615be0] {
   right: 0px !important;
 }
 
-.field[data-v-543d71e4] .fura-wrapper::after {
+.field[data-v-3746c692] .fura-wrapper::after {
   right: 0px !important;
 }
 
@@ -103,7 +103,7 @@ div[data-v-d1615be0] {
   right: 0px !important;
 }
 
-.field[data-v-683903ff] .fura-wrapper::after {
+.field[data-v-a34b1a5c] .fura-wrapper::after {
   right: 0px !important;
 }
 
@@ -115,12 +115,12 @@ div[data-v-d1615be0] {
   right: 0px !important;
 }
 
-.field[data-v-1878bbd0] .fura-wrapper::after {
+.field[data-v-2a27fa3a] .fura-wrapper::after {
   right: 0px !important;
 }
 
 
-.AANEE_ALUMNE-editItem-general[data-v-fda00392] {
+.AANEE_ALUMNE-editItem-general[data-v-cdf1f0c0] {
     padding: 4px;
     margin-top: 2px;
     margin-left:4px;
@@ -180,7 +180,7 @@ div[data-v-d1615be0] {
     grid-template-columns: 6% 17% 12% 19% 19% 25%;
     grid-column-gap: 6px;
     grid-template-areas:
-    'LABEL_NEEA_I  AVALUACIO_NEEA_EAP_I       PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I'
+    'LABEL_NEEA_I  AVALUACIO_NEEA_EAP_I       PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  NUM_SOLICITUD_EE_I'
     '.             ES_NEEA_I                  TIPUS_ESCOLARITZACIO_I        SENSE_BARRERES_I              SIEI_I                        SIAL_I'
     '.             ACORD_NEEA_I               ID_MOTIU_NESE_I               ID_MOTIU_NESE_I               .                             DISTANCIES_I'
     '.             CENTRE1_I                  ID_CENTRE_PROPOSAT1_I         ID_CENTRE_PROPOSAT1_I         ID_CENTRE_PROPOSAT1_I         DISTANCIA_CENTRE_PROPOSAT1_I'
@@ -189,7 +189,7 @@ div[data-v-d1615be0] {
     '.             COMPARTIDA_I               ID_CENTRE_COMPARTIDA_I        ID_CENTRE_COMPARTIDA_I        ID_CENTRE_COMPARTIDA_I        DISTANCIA_CENTRE_COMPARTIDA_I'
     '.             CENTRE_G_I                 ID_CENTRE_GERMANS_I           ID_CENTRE_GERMANS_I           ID_CENTRE_GERMANS_I           INSCRIPCIOFINAL_NEEA_I'
     '.             INSCRIT_ORDINARI_GEDAC_I   CENTRE_CRAE_I                 GERMA_BESSO_ORDINARI_I        ACOLLIMENT_DGAIA_I            AVALUACIO_NEEA_I'
-    'LABEL_NEEA    AVALUACIO_NEEA_EAP         PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA'
+    'LABEL_NEEA    AVALUACIO_NEEA_EAP         PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    NUM_SOLICITUD_EE'
     '.             ES_NEEA                    TIPUS_ESCOLARITZACIO          SENSE_BARRERES                SIEI                          SIAL'
     '.             ACORD_NEEA                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 DISTANCIES'
     '.             CENTRE1                    ID_CENTRE_PROPOSAT1Codi       ID_CENTRE_PROPOSAT1Nom        ID_CENTRE_PROPOSAT1Nom        DISTANCIA_CENTRE_PROPOSAT1'
@@ -219,23 +219,23 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_ALUMNE-editItem-gedac[data-v-7f9853af] {
+.AANEE_ALUMNE-editItem-gedac[data-v-214d0099] {
     padding: 4px;
     margin-top: -4px;
     margin-left: 10px;
     display: grid;
     max-width:1080px;
-    grid-template-columns: 10% 15% 15% 60% 0%;
+    grid-template-columns: 10% 15% 15% 60%;
     grid-column-gap: 6px;
     grid-template-areas:
-    'LABEL_GEDAC_I  NUM_SOLICITUD_I          TIPUS_ALUMNE_I           ID_NIVELL_I              .'
-    '.              ID_CENTRE_PROCEDENCIA_I  ID_CENTRE_PROCEDENCIA_I  ID_CENTRE_PROCEDENCIA_I  .'
-    '.              ID_CENTRE_1AOPCIO_I      ID_CENTRE_1AOPCIO_I      ID_CENTRE_1AOPCIO_I      .'
-    'LABEL_GEDAC    NUM_SOLICITUD            TIPUS_ALUMNE             ID_NIVELL                 .'
-    '.              ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA     .'
-    '.              ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO         .';
+    'LABEL_GEDAC_I  NUM_SOLICITUD_I          TIPUS_ALUMNE_I           ID_NIVELL_I'
+    '.              ID_CENTRE_PROCEDENCIA_I  ID_CENTRE_PROCEDENCIA_I  ID_CENTRE_PROCEDENCIA_I'
+    '.              ID_CENTRE_1AOPCIO_I      ID_CENTRE_1AOPCIO_I      ID_CENTRE_1AOPCIO_I'
+    'LABEL_GEDAC    NUM_SOLICITUD            TIPUS_ALUMNE             ID_NIVELL'
+    '.              ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA'
+    '.              ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO'
 }
-.xecini[data-v-7f9853af] {
+.xecini[data-v-214d0099] {
     margin-top: 4px;
     padding: 4px;
     width: 100%;
@@ -249,7 +249,7 @@ div[data-v-d1615be0] {
       'TRASLLATFORCOS_GEDAC_INI'
       'ASSIGNACIO_MANUAL_GEDAC_INI'
 }
-.xec[data-v-7f9853af] {
+.xec[data-v-214d0099] {
     margin-top: 4px;
     padding: 4px;
     width: 100%;
