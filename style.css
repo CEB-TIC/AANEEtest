@@ -59,7 +59,7 @@ div[data-v-29f5092a] {
   justify-content: flex-end;
 }
 
-.field[data-v-64ffb812] .fura-elementWrapper::after {
+.field[data-v-ce6a5b82] .fura-elementWrapper::after {
   right: 0px !important;
 }
 
@@ -202,7 +202,7 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_ALUMNE-editItem-neeb[data-v-1c88ff54] {
+.AANEE_ALUMNE-editItem-neeb[data-v-faece498] {
     padding: 4px;
     margin-left:20px;
     max-width:1200px;
@@ -213,8 +213,7 @@ div[data-v-d1615be0] {
     grid-template-areas:
     'ES_NEEB           AVALUACIO_NEEB        PROFESSIONAL_ASSIGNAT_NEEB   PROFESSIONAL_ASSIGNAT_NEEB    ID_MOTIU_VULNERABILITAT'
     'ENTREVISTAR_NEEB  DATATRUCADA_NEEB      INSCRIT_ORDINARI_GEDAC       INSCRIPCIOFINAL_NEEB          INSCRIPCIOFINAL_NEEB'
-    'LABEL_RAV         ID_ESTAT_RAV          ID_ESTAT_VULNERABLE          ID_ESTAT_PLAXOC               ID_MOTIU_VULNERABILITAT_RAV'
-    'LABEL_BAREM       ESTA_RAV              .                            .                             .'
+    'ESTA_RAV          ID_ESTAT_RAV          ID_ESTAT_VULNERABLE          ID_ESTAT_PLAXOC               ID_MOTIU_VULNERABILITAT_RAV'
     'RENDA_MINIMA      RENDA_MINIMA_VALIDAT  ACOLLIMENT_FAMILIAR          ACOLLIMENT_FAMILIAR_VALIDAT   SITUACIO_ACOLLIMENT'
 }
 
