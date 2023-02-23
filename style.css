@@ -397,20 +397,21 @@ div[data-v-d1615be0] {
 
 
 
-.alta[data-v-a782ec1c] {
+.alta[data-v-38cbc7e9] {
   margin-top: 8px;
 }
-.AANEE_SIMULACIO-editItem-layout[data-v-a782ec1c] {
+.AANEE_SIMULACIO-editItem-layout[data-v-38cbc7e9] {
     display: grid;
     width: 990px;
     display: grid;
     grid-template-columns: 10% 15% 25% 15% 20% 20%;
     grid-column-gap: 6px;
     grid-template-areas:
-      "ID_NIVELL          CODI_SIMULACIO      NOM_SIMULACIO       NOM_SIMULACIO      PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
-      "ASSIG_MANUALS_NEE  ASSIG_MANUALS_NEE   FORATERMINI_NEE     DUPLICADES_NEE     DUPLICADES_NEE           ESTAT_SOLICITUD"
-      "ASSIG_MANUALS_ORD  ASSIG_MANUALS_ORD   IGNORAR_FORACIUTAT  REASSIGNAR_NEE     REASSIGNAR_NEE           ALTA"
-      "errorMessage       errorMessage        errorMessage        errorMessage       errorMessage             errorMessage";
+      "ID_NIVELL            CODI_SIMULACIO       NOM_SIMULACIO           NOM_SIMULACIO         PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
+      "ASSIG_MANUALS_NEE    ASSIG_MANUALS_NEE    FORATERMINI_NEE         DUPLICADES_NEE        DUPLICADES_NEE           ESTAT_SOLICITUD"
+      "ASSIG_MANUALS_ORD    ASSIG_MANUALS_ORD    IGNORAR_FORACIUTAT      REASSIGNAR_NEE        REASSIGNAR_NEE           ."
+      "EMPRAR_TIPUS_AANEE   EMPRAR_TIPUS_AANEE   EMPRAR_MARCATGES_AANEE  REASSIGNAR_ORDINARIS  REASSIGNAR_ORDINARIS     ALTA"
+      "errorMessage         errorMessage         errorMessage            errorMessage          errorMessage             errorMessage";
 }
 
 
@@ -431,7 +432,7 @@ div[data-v-d1615be0] {
 }
 
 
-.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-5611e35b] {
+.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-4b640f2b] {
    padding: 4px;
     margin-top: 2px;
     margin-left:4px;
@@ -439,11 +440,11 @@ div[data-v-d1615be0] {
     grid-template-columns: 30% 12% 12% 12% 12% 12%;
     grid-column-gap: 6px;
     grid-template-areas:
-      '.          ID_ZONA  TITULARITAT                TITULARITAT           TITULARITAT           TITULARITAT'
-      'INICIAL    NUM      OFERTA_ORDINARIA_INI       OFERTA_NEEA_INI       OFERTA_NEEB_INI       OFERTA_NEE_INI'
+      '.          ID_ZONA  TITULARITAT                   TITULARITAT              TITULARITAT              TITULARITAT'
+      'INICIAL    NUM      OFERTA_ORDINARIA_INI          OFERTA_NEEA_INI          OFERTA_NEEB_INI          OFERTA_NEE_INI'
       'ACTUALC    NCTES    MODIFICACIO_ORDINARIA_CENTRE  MODIFICACIO_NEEA_CENTRE  MODIFICACIO_NEEB_CENTRE  MODIFICACIO_NEE_CENTRE'
       'ACTUALG    NGRUPS   MODIFICACIO_ORDINARIA_GRUP    MODIFICACIO_NEEA_GRUP    MODIFICACIO_NEEB_GRUP    MODIFICACIO_NEE_GRUP'
-      'FINAL      .        OFERTA_ORDINARIA_FIN       OFERTA_NEEA_FIN       OFERTA_NEEB_FIN       OFERTA_NEE_FIN'
+      'FINAL      .        OFERTA_ORDINARIA_FIN          OFERTA_NEEA_FIN          OFERTA_NEEB_FIN          OFERTA_NEE_FIN'
 }
 
 .AANEE_USUARI-editItem-layout {
@@ -1416,7 +1417,7 @@ div[data-v-d1615be0] {
   margin: auto;
   width: fit-content;
   max-width: 1200px;
-  grid-template-columns: 15% 22% 20% 22% 11% 8%;
+  grid-template-columns: 15% 22% 20% 22% 9% 10%;
   grid-column-gap: 6px;
   grid-template-areas: "REPORT   REPORT      TIT          CENTRE    CENTRE         IDALU" "INDEX    DESCRIPCIO  TITULARITAT  PEROPCIO  MODIFICACIONS  MODIFICACIONS" "BOTONS   BOTONS      BOTONS       BOTONS    BOTONS         BOTONS" "VISOR    VISOR       VISOR        VISOR     VISOR          VISOR";
 }
