@@ -137,7 +137,7 @@ div[data-v-d1615be0] {
 
 
 
-.AANEE_ALUMNE-PERSONAL-editItem-personal[data-v-5442d712] {
+.AANEE_ALUMNE-PERSONAL-editItem-personal[data-v-1c76b632] {
     padding: 4px;
     margin-top: 2px;
     margin-left:4px;
@@ -152,7 +152,7 @@ div[data-v-d1615be0] {
     'EMAIL_TUTOR1           EMAIL_TUTOR1        EMAIL_TUTOR2        EMAIL_TUTOR2        ID_CENTRE_PROCEDENCIA         ID_CENTRE_PROCEDENCIA'
     'GEDAC                  GEDAC               GEDAC               GEDAC               GEDAC                         GEDAC'
 }
-.gedac[data-v-5442d712] {
+.gedac[data-v-1c76b632] {
     padding: 4px;
     margin-left:4px;
     max-width:1080px;
@@ -189,6 +189,7 @@ div[data-v-d1615be0] {
     '.             COMPARTIDA_I               ID_CENTRE_COMPARTIDA_I        ID_CENTRE_COMPARTIDA_I        ID_CENTRE_COMPARTIDA_I        DISTANCIA_CENTRE_COMPARTIDA_I'
     '.             CENTRE_G_I                 ID_CENTRE_GERMANS_I           ID_CENTRE_GERMANS_I           ID_CENTRE_GERMANS_I           INSCRIPCIOFINAL_NEEA_I'
     '.             INSCRIT_ORDINARI_GEDAC_I   CENTRE_CRAE_I                 GERMA_BESSO_ORDINARI_I        ACOLLIMENT_DGAIA_I            AVALUACIO_NEEA_I'
+    '.             .                          .                             RETENCIO_I                    CEEPSIR_I                     .'
     'LABEL_NEEA    AVALUACIO_NEEA_EAP         PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    NUM_SOLICITUD_EE'
     '.             ES_NEEA                    TIPUS_ESCOLARITZACIO          SENSE_BARRERES                SIEI                          SIAL'
     '.             ACORD_NEEA                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 DISTANCIES'
@@ -197,8 +198,8 @@ div[data-v-d1615be0] {
     '.             CENTRE3                    ID_CENTRE_PROPOSAT3Codi       ID_CENTRE_PROPOSAT3Nom        ID_CENTRE_PROPOSAT3Nom        DISTANCIA_CENTRE_PROPOSAT3'
     '.             COMPARTIDA                 ID_CENTRE_COMPARTIDACodi      ID_CENTRE_COMPARTIDANom       ID_CENTRE_COMPARTIDANom       DISTANCIA_CENTRE_COMPARTIDA'
     '.             CENTRE_G                   ID_CENTRE_GERMANSCodi         ID_CENTRE_GERMANSNom          ID_CENTRE_GERMANSNom          INSCRIPCIOFINAL_NEEA'
-    '.             INSCRIT_ORDINARI_GEDAC     CENTRE_CRAE                   GERMA_BESSO_ORDINARI          ACOLLIMENT_DGAIA              PENDENT_INSCRIPCIO_FINAL_NEEA'
-    '.             .                          .                             .                             .                             AVALUACIO_NEEA';
+    '.             INSCRIT_ORDINARI_GEDAC     CENTRE_CRAE                   GERMA_BESSO_ORDINARI          ACOLLIMENT_DGAIA              AVALUACIO_NEEA'
+    '.             .                          .                             RETENCIO                      CEEPSIR                       PENDENT_INSCRIPCIO_FINAL_NEEA';
 }
 
 
@@ -1391,13 +1392,13 @@ div[data-v-d1615be0] {
   align-items: center;
   outline: 0;
 }
-.fura-left .cela {
+.fura-left  {
   justify-content: flex-start;
 }
-.fura-center .cela {
+.fura-center  {
   justify-content: center;
 }
-.fura-right .cela {
+.fura-right  {
   justify-content: flex-end;
 }
 
@@ -1417,9 +1418,9 @@ div[data-v-d1615be0] {
   margin: auto;
   width: fit-content;
   max-width: 1200px;
-  grid-template-columns: 15% 22% 20% 22% 9% 10%;
+  grid-template-columns: 15% 22% 20% 20% 9% 12%;
   grid-column-gap: 6px;
-  grid-template-areas: "REPORT   REPORT      TIT          CENTRE    CENTRE         IDALU" "INDEX    DESCRIPCIO  TITULARITAT  PEROPCIO  MODIFICACIONS  MODIFICACIONS" "BOTONS   BOTONS      BOTONS       BOTONS    BOTONS         BOTONS" "VISOR    VISOR       VISOR        VISOR     VISOR          VISOR";
+  grid-template-areas: "REPORT   REPORT      TIT          CENTRE    CENTRE         NUM_SOLICITUD" "INDEX    DESCRIPCIO  TITULARITAT  PEROPCIO  MODIFICACIONS  MODIFICACIONS" "BOTONS   BOTONS      BOTONS       BOTONS    BOTONS         BOTONS" "VISOR    VISOR       VISOR        VISOR     VISOR          VISOR";
 }
 
 .dialogLoading-overlay[data-v-69be9a34] {
